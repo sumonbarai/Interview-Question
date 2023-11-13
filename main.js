@@ -1,3 +1,21 @@
+//question:07
+const obj = {
+  1: "hello programmer",
+};
+
+console.log(obj);
+console.log(obj.hasOwnProperty(1));
+console.log("1" in obj);
+
+/* //question:06
+function getName() {
+  "use strict";
+  myName = "sumon";
+  console.log(myName);
+}
+
+getName(); */
+
 /* //question:05
 function checkAge(data) {
   if (data === { age: 18 }) {
