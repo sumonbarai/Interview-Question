@@ -1,4 +1,20 @@
-// question:16
+// question:18
+const arr = [5, 6, 9];
+arr.reduceRight((acc, cur) => {
+  console.log(acc);
+  console.log(cur);
+});
+
+/* // question:17
+
+(function programmer() {
+  const x = (y = 100);
+})();
+
+console.log(typeof x);
+console.log(typeof y); */
+
+/* // question:16
 function getInfo(obj, year) {
   obj.name = "Sumon";
   year = 2023;
@@ -9,7 +25,7 @@ const year = 2000;
 getInfo(person, year);
 
 console.log(person.name);
-console.log(year);
+console.log(year); */
 
 /* // question:15
 const arr = [1, 2, 3, 4];
