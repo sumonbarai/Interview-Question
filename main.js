@@ -1,9 +1,46 @@
-// question:18
+//question:21
+
+const obj1 = { a: 1, b: 2 };
+const obj2 = { b: 4, c: 5 };
+
+const newObj = Object.assign(obj1, obj2);
+
+console.log(newObj);
+console.log(obj1 === newObj);
+
+/* //question:21
+function test(a, a) {
+  console.log(a);
+}
+
+test(10); */
+
+/* //question:20
+
+function regularFn(a, a) {}
+const arrowFn = (b, b) => {};
+
+regularFn(10, 100);
+arrowFn(20, 200); */
+
+/* //question:19
+function run() {
+  try {
+    return 100;
+  } finally {
+    return 200;
+  }
+}
+
+const output = run();
+console.log(output); */
+
+/* // question:18
 const arr = [5, 6, 9];
 arr.reduceRight((acc, cur) => {
   console.log(acc);
   console.log(cur);
-});
+}); */
 
 /* // question:17
 
