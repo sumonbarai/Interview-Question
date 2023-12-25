@@ -1,4 +1,66 @@
-//question:21
+//question:26
+function add(item, arr) {
+  return arr.push(item);
+}
+const result = add("c", ["a", "b"]);
+console.log(result);
+
+/* //question:25
+
+setTimeout(() => {
+  console.log(1);
+}, 0);
+
+Promise.resolve().then(() => {
+  console.log(3);
+  Promise.resolve().then(() => {
+    console.log(10);
+  });
+});
+
+queueMicrotask(() => {
+  console.log(2);
+  queueMicrotask(() => {
+    console.log(12);
+  });
+});
+
+console.log(4); */
+
+/* //question:24
+const obj = {
+  x: 10,
+  y: 20,
+};
+
+Object.freeze(obj);
+const newObj = obj;
+newObj.x = 50;
+newObj.y = 60;
+
+console.log(newObj.x);
+console.log(newObj.y); */
+
+/* //question:23
+
+const obj1 = {
+  name: "sumon",
+  address: {
+    country: "Bangladesh",
+    city: "Khulna",
+    ["post office"]: {
+      one: "Rupsha",
+    },
+  },
+};
+const obj2 = structuredClone(obj1);
+// const obj2 = { ...obj1 };
+
+obj2.address["post office"].one = "Sadar";
+
+console.log(obj1.address["post office"].one); */
+
+/* //question:22
 
 const obj1 = { a: 1, b: 2 };
 const obj2 = { b: 4, c: 5 };
@@ -6,7 +68,7 @@ const obj2 = { b: 4, c: 5 };
 const newObj = Object.assign(obj1, obj2);
 
 console.log(newObj);
-console.log(obj1 === newObj);
+console.log(obj1 === newObj); */
 
 /* //question:21
 function test(a, a) {
