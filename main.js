@@ -1,9 +1,90 @@
-//question:26
+//question:31
+
+const arr = new Array(5);
+console.log(arr.length); // 5
+console.log(arr[2]); // undefined;
+
+arr.forEach((item) => {
+  console.log(item);
+});
+
+/* //question:30
+// 4 way to create IIFE (Immediately Invoked Function Expression)
+// =======one=========
+(function func() {
+  console.log("way 1");
+}());
+
+// =======two=========
+(function func() {
+  console.log("way 2");
+})();
+
+// =======three=========
+!function func() {
+  console.log("way 3");
+}();
+
+// =======four=========
++function func() {
+  console.log("way 4");
+}();
+
+
+ */
+
+/* //question:29
+
+// using non strict mode
+const obj = {
+  age: 30,
+  ageCalculate: function (num) {
+    return this.age + num;
+  },
+};
+
+{
+  const result = obj.ageCalculate(20);
+  console.log(result);
+}
+
+{
+  const { ageCalculate } = obj;
+  const result = ageCalculate(20);
+  console.log(result);
+}
+ */
+/* //question:28
+
+const arr = [5, 4, 3, 2, 1, 0, -1, -2, -3];
+
+arr.forEach((number) => {
+  if (number >= 0) {
+    console.log("Number:", number);
+    return; // You might think this would stop it, but nope!
+  } else {
+    arr.length = 0;
+    return;
+  }
+  console.log("Stopping? Nope! Number:", number);
+}); */
+
+/* //question:27
+
+async function getValue() {
+  return "i love JavaScript";
+}
+
+const result = getValue();
+console.log(result);
+ */
+/* //question:26
+
 function add(item, arr) {
   return arr.push(item);
 }
 const result = add("c", ["a", "b"]);
-console.log(result);
+console.log(result); */
 
 /* //question:25
 
