@@ -1,4 +1,39 @@
-//question:31
+//question:35
+const person = {
+  val: 1,
+  get a() {
+    return this.val++;
+  },
+};
+
+console.log(person.a);
+console.log(person.a);
+console.log(person.a);
+
+/* //question:34
+console.log(~5);
+console.log(~-6);
+console.log(~~7.5);
+console.log(~~-8.5); */
+
+/* //question:33
+console.log("hello");
+var abc = "var variable print";
+
+function abc() {
+  console.log("print function");
+}
+
+console.log(abc()); */
+
+/* //question:32
+
+console.log([] == "");
+console.log(undefined == null);
+console.log(false == "");
+console.log(10 == "10"); */
+
+/* //question:31
 
 const arr = new Array(5);
 console.log(arr.length); // 5
@@ -6,7 +41,7 @@ console.log(arr[2]); // undefined;
 
 arr.forEach((item) => {
   console.log(item);
-});
+}); */
 
 /* //question:30
 // 4 way to create IIFE (Immediately Invoked Function Expression)
