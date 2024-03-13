@@ -1,4 +1,40 @@
-//question:35
+/* //question:38
+localStorage.setItem("isActive", false);
+
+const isActive = localStorage.getItem("isActive");
+if (isActive) {
+  console.log("your answer is true");
+} else {
+  console.log("your answer is false");
+}
+ */
+/* //question:37
+
+city = "khulna";
+console.log(city); */
+
+/* //question:36
+
+const obj = {
+  names: null,
+  city: undefined,
+  age: false,
+  country: 0,
+};
+
+const {
+  names = "Sumon",
+  city = "Khulna",
+  age = 30,
+  country = "Bangladesh",
+} = obj;
+
+console.log(names);
+console.log(city);
+console.log(age);
+console.log(country); */
+
+/* //question:35
 const person = {
   val: 1,
   get a() {
@@ -8,7 +44,7 @@ const person = {
 
 console.log(person.a);
 console.log(person.a);
-console.log(person.a);
+console.log(person.a); */
 
 /* //question:34
 console.log(~5);
@@ -320,14 +356,14 @@ String.prototype.city = () => {
 const name = "our city name is Dhaka";
 console.log(name.city()); */
 
-/* //question:07
+//question:07
 const obj = {
   1: "hello programmer",
 };
 
 console.log(obj);
 console.log(obj.hasOwnProperty(1));
-console.log("1" in obj); */
+console.log("1" in obj);
 
 /* //question:06
 function getName() {
