@@ -1,3 +1,61 @@
+/* //question:47
+function first() {
+  return "first function";
+}
+function second() {
+  return "second function";
+}
+const message = first() && second();
+
+console.log(message);*/
+
+/* //question:46
+let x = 010;
+console.log(x); */
+
+/* //question:45
+const x = (1, 2, 3, 4);
+console.log(x);
+ */
+/* //question:44
+const { x, x: y } = { x: 100 };
+
+console.log("x=", x);
+console.log("y=", y); */
+
+/* //question:43
+if ([]) {
+  console.log("This is First Console");
+}
+
+if ([] == false) {
+  console.log("This is Second Console");
+} else {
+  console.log("This is Third Console");
+} */
+
+/* //question:42
+
+console.log((2).value); */
+
+/* //question:41
+
+console.log(0 == -0);
+console.log(-0 === 0);
+console.log(Object.is(0, -0));
+ */
+
+/* //question:40
+const obj = { city: "khulna" };
+console.log(obj.hasOwnProperty("city")); //true
+console.log(Object.prototype.hasOwnProperty.call(obj, "city")); //true
+console.log(Object.hasOwn(obj, "city")); //true */
+
+/* //question:39
+
+const isTrue = true;
+console.log(isTrue.name); */
+
 /* //question:38
 localStorage.setItem("isActive", false);
 
@@ -356,14 +414,14 @@ String.prototype.city = () => {
 const name = "our city name is Dhaka";
 console.log(name.city()); */
 
-//question:07
+/* //question:07
 const obj = {
   1: "hello programmer",
 };
 
 console.log(obj);
 console.log(obj.hasOwnProperty(1));
-console.log("1" in obj);
+console.log("1" in obj); */
 
 /* //question:06
 function getName() {
