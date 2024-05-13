@@ -1,3 +1,61 @@
+/* //question:52
+
+const obj = {
+  name: "sumon",
+  age: 30,
+};
+
+const key = "constructor";
+
+if (key in obj) {
+  console.log("key is found");
+} else {
+  console.log("key is not found");
+} */
+
+/* //question:51
+function fn() {
+  console.log("this is function");
+}
+fn.age = 500;
+console.log(fn.age);
+ */
+/* //question:50
+
+function promiseFn() {
+  return new Promise((resolve, reject) => {
+    if (false) {
+      resolve("i am resolve");
+    } else {
+      reject("i am reject");
+    }
+  });
+}
+
+promiseFn()
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => {
+    console.log(error);
+  })
+  .then(() => {
+    console.log("i am last then blog");
+  }); */
+
+/* //question:49
+const num = 2;
+const result = num.toString(2);
+console.log(result); */
+
+/* 
+//question:48
+var test = function () {
+  console.log("hello world");
+};
+
+test(); */
+
 /* //question:47
 function first() {
   return "first function";
