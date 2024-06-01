@@ -1,5 +1,22 @@
-/* //question:52
+/* //question:54
+function myFunc() {
+  console.log(data);
+  var data = "hello world";
 
+  return;
+  function data() {
+    console.log("data func");
+  }
+}
+
+myFunc();*/
+
+/* //question:53
+
+const mycity = "khulna"; */
+
+/* //question:52
+// in vs Object.hasOwn()
 const obj = {
   name: "sumon",
   age: 30,
@@ -11,8 +28,8 @@ if (key in obj) {
   console.log("key is found");
 } else {
   console.log("key is not found");
-} */
-
+}
+ */
 /* //question:51
 function fn() {
   console.log("this is function");
