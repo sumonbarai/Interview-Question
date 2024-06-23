@@ -1,4 +1,24 @@
-/* //question:54
+//question:56
+
+const demo = {
+  then: function () {
+    console.log("Hello World");
+  },
+};
+
+async function Person() {
+  await demo;
+}
+
+Person();
+
+/* //question:55
+function getValue(a, b, c = 0, d) {}
+
+console.log(getValue.length); */
+
+/*
+//question:54
 function myFunc() {
   console.log(data);
   var data = "hello world";
