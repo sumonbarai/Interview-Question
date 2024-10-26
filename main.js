@@ -1,4 +1,50 @@
-//question:56
+//question:60
+"use strict";
+{
+  function demo() {
+    console.log(10 + 20);
+  }
+}
+
+demo();
+
+// All credit Rahul Mishra
+
+/* 
+//question:59
+function sum(num1, num2) {
+  "use strict";
+  num1 = 100;
+  num2 = 200;
+  return arguments[0] + arguments[1];
+}
+
+const result = sum(5, 6);
+console.log(result);
+
+// All credit Rahul Mishra
+ */
+/* //question:58
+let person = { name: "sumon", city: "khulna" };
+let department = {};
+department.student = person;
+person = null;
+
+console.log(department?.student?.city); */
+
+// All credit Rahul Mishra
+
+/* //question:57
+
+function Demo(text) {
+  this.country = text;
+  return { edu: "akcc" };
+}
+
+const result = new Demo("bangladesh");
+console.log(result.country); */
+
+/* //question:56
 
 const demo = {
   then: function () {
@@ -11,7 +57,7 @@ async function Person() {
 }
 
 Person();
-
+ */
 /* //question:55
 function getValue(a, b, c = 0, d) {}
 
