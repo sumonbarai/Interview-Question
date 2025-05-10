@@ -1,5 +1,35 @@
-//question:60
-"use strict";
+//Question:63
+
+function getData() {
+  a = 500;
+  console.log(a);
+}
+
+getData();
+let a;
+
+/* //Question:62
+function abc() {
+  return "test";
+}
+
+var abc;
+console.log(abc);
+
+// All credit Rahul Mishra
+ */
+
+/* //Question:61
+const Person = () => {
+  this.test = "hello";
+};
+
+const result = new Person();
+
+console.log(result.test); */
+
+/* //question:60
+
 {
   function demo() {
     console.log(10 + 20);
@@ -9,7 +39,7 @@
 demo();
 
 // All credit Rahul Mishra
-
+ */
 /* 
 //question:59
 function sum(num1, num2) {
